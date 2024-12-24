@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.app{
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.app *{
+    margin-bottom: 15px;
+}
+.imgcontainer img{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+h2{
+    text-transform: capitalize;
+}
+
+.decription{
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.prep{
+   background-color:  hsl(30, 54%, 90%);
+   padding: 15px;
+   font-size: 10px;
+   border-radius: 15px;
+}
+
+.prep h3{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: hsl(332, 51%, 32%);
+}
+
+li span{
+   font-weight: bold;
+   text-transform: capitalize;
+}
+
+ul{
+    list-style: outside disc;
+    margin-left: 1em;
+}
+
+.ingredients{
+    text-transform: capitalize;
+    color: hsl(332, 51%, 32%);
+}
+
+.ingre li {
+    font-size: 10px;
+}
+
+.instrutions{
+    text-transform: capitalize;
+    color: hsl(332, 51%, 32%);
+}
+
+.list{
+    list-style: outside disc;
+    margin-left:  1em;
+}
+
+.list li{
+    font-size: 12px;
+}
+
+h3{
+    color: hsl(332, 51%, 32%);
+    text-transform: capitalize;
+}
+
+.contexts {
+    font-size: 10px;
+}
+
+.nutri li{
+     font-size: 10px;
+     text-decoration: underline;
+     word-spacing: 200px;
+     list-style: none;
+     color: hsl(332, 51%, 32%);
+}
+
+.nutri li span{
+    color: black;
+}
+
+@media screen and (max-width: 375px) {
+   .nutri  li span{
+    color: red;
+   }
+}
